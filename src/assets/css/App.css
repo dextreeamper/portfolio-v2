@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One+SC|Lobster|Pacifico");
 .App {
   text-align: center; }
 
@@ -32,13 +33,17 @@
   background-repeat: repeat-y;
   background-position: center; }
 
+strong {
+  font-family: 'Bowlby One SC', cursive; }
+
 p {
   line-height: 48px !important;
   letter-spacing: 0.5px;
   font-size: 17px; }
 
 h1 {
-  font-size: 6em !important; }
+  font-size: 6em !important;
+  font-family: 'Berkshire Swash', cursive !important; }
 
 h3 {
   font-size: 3em !important; }
@@ -61,16 +66,17 @@ section {
   box-shadow: none; }
   .section-one .main-panel .section-number {
     position: absolute;
-    margin-left: -12%; }
+    margin-left: -11.5%; }
 
 .section-one .title {
   position: absolute;
-  margin-top: 18%;
-  margin-left: 38%; }
+  margin-top: 23%;
+  margin-left: 18.2%;
+  color: #29fdb2; }
 
 .section-one .image {
   padding-top: 75%;
-  background-image: url(../img/painted-lady-1568926_960_720.jpg);
+  background-image: url(../img/photo-1429311808521-e9323bf636bd.jpeg);
   background-size: cover;
   background-position: center;
   box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
@@ -83,7 +89,7 @@ section {
 
 .section-two {
   margin-top: 200px;
-  height: 429px; }
+  height: 100vh; }
   .section-two .column {
     position: relative;
     padding: 30px 45px;
@@ -118,5 +124,6 @@ section {
     z-index: 1; }
   .section-two .title {
     position: absolute;
-    margin-top: 26%;
-    left: 23%; }
+    margin-top: 24%;
+    left: 18%;
+    color: red; }

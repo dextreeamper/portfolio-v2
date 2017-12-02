@@ -7,8 +7,7 @@ class SectionOne extends Component {
       <section className="section-one">
         <div className="main-panel">
           <div className="title">
-            <h1>Dexter</h1>
-            <h1>Amper</h1>
+            <h1>Dexter Amper</h1>
           </div>
           <div className="blurb">
             <p>
