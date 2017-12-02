@@ -3,6 +3,7 @@ import logo from './assets/img/logo.svg';
 import './assets/css/App.css';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="ui container">
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
       </div>
     );
   }
