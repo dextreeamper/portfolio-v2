@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocialComponent from './SocialComponent';
 
 class SectionFour extends Component {
   render() {
@@ -14,20 +15,7 @@ class SectionFour extends Component {
             04
           </div>
           <div className="social">
-            <ul>
-              <li className="social--item">
-                <a href="https://github.com/dextreeamper" target="_blank"><i class="github square icon"></i></a>
-              </li>
-              <li className="social--item">
-                <a href="https://www.facebook.com/dextreeamper" target="_blank"><i class="facebook icon"></i></a>
-              </li>
-              <li className="social--item">
-                <a href="https://www.linkedin.com/dextreeamper/" target="_blank"><i class="linkedin plus icon"></i></a>
-              </li>
-              <li className="social--item">
-                <a href="https://www.instagram.com/dextreeamper/" target="_blank"><i class="instagram square icon"></i></a>
-              </li>
-            </ul>
+            <SocialComponent />
           </div>
         </div>
       </section>
