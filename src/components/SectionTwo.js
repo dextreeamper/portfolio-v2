@@ -7,7 +7,8 @@ class SectionTwo extends Component {
         <div className="main-panel">
           <div className="blurb">
             <p>
-              Dexter specializes in making things for human people. By day he crafts digital interfaces at Google. By night he educates others through video, audio, and the written word.
+              Learning is not attained by chance, it must be sought for with ardor and diligence.
+              -Abigail Adams
             </p>
           </div>
             <div className="column left--panel">

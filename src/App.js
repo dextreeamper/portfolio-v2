@@ -4,6 +4,7 @@ import './assets/css/App.css';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
+import SectionFour from './components/SectionFour';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <SectionOne />
         <SectionTwo />
         <SectionThree />
+        <SectionFour />
       </div>
     );
   }

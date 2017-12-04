@@ -175,3 +175,36 @@ section {
   margin-top: 50%;
   margin-left: 43%;
   color: #dc00ff !important; }
+
+.section-four {
+  height: 500px; }
+  .section-four .main-panel {
+    position: relative;
+    max-width: 540px;
+    margin-right: auto;
+    top: 100px;
+    height: 233px;
+    background: #fff;
+    box-shadow: 0px 70px 80px -40px rgba(0, 0, 0, 0.4), 0px 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
+    .section-four .main-panel .social {
+      position: relative;
+      margin-top: -7%;
+      left: 20%; }
+    .section-four .main-panel ul {
+      display: flex; }
+      .section-four .main-panel ul .social--item {
+        list-style-type: none;
+        padding-right: 15px; }
+        .section-four .main-panel ul .social--item .icon {
+          color: black;
+          font-size: 3em; }
+    .section-four .main-panel .title {
+      position: relative;
+      top: -25%; }
+      .section-four .main-panel .title h1 {
+        color: yellow; }
+    .section-four .main-panel .section-number {
+      position: relative;
+      margin-left: 82%;
+      top: 100px; }
