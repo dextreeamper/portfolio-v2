@@ -11,7 +11,7 @@ class SocialComponent extends Component {
                 <a href="https://www.facebook.com/dextreeamper" target="_blank"><i class="facebook icon"></i></a>
               </li>
               <li className="social--item">
-                <a href="https://www.linkedin.com/dextreeamper/" target="_blank"><i class="linkedin plus icon"></i></a>
+                <a href="https://www.linkedin.com/in/dexteramper/" target="_blank"><i class="linkedin plus icon"></i></a>
               </li>
               <li className="social--item">
                 <a href="https://www.instagram.com/dextreeamper/" target="_blank"><i class="instagram square icon"></i></a>
