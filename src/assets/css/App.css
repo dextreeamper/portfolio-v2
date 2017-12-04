@@ -42,14 +42,16 @@ p {
   letter-spacing: 0.5px;
   font-size: 17px;
   font-weight: 100;
-  color: #464645; }
+  font-family: sans-serif;
+  color: #3a3a3a; }
 
 h1 {
   font-size: 6em !important;
   font-family: 'Berkshire Swash', cursive !important; }
 
 h3 {
-  font-size: 1.5em !important; }
+  font-size: 1.5em !important;
+  font-weight: 100 !important; }
 
 section {
   max-width: 960px;
@@ -59,7 +61,7 @@ section {
 .section-number {
   font-size: 212px;
   font-weight: 600;
-  color: rgba(27, 27, 27, 0.12); }
+  color: rgba(255, 255, 255, 0.5); }
 
 .section-one .main-panel {
   max-width: 700px;
@@ -69,15 +71,19 @@ section {
   box-shadow: none; }
   .section-one .main-panel .section-number {
     position: absolute;
-    margin-left: -11.5%; }
+    margin-left: -9.5%;
+    margin-top: -1%; }
 
 .section-one .title {
   position: absolute;
   margin-top: 23%;
   margin-left: 18.2%;
-  color: #29fdb2; }
+  color: #00cdf3;
+  z-index: 3; }
 
 .section-one .image {
+  z-index: 2;
+  position: relative;
   padding-top: 75%;
   background-image: url(../img/photo-1429311808521-e9323bf636bd.jpeg);
   background-size: cover;
@@ -88,7 +94,8 @@ section {
   width: 290px;
   position: absolute;
   margin-top: 3%;
-  margin-left: -6%; }
+  margin-left: -6%;
+  z-index: 5; }
 
 .section-two {
   margin-top: 200px;
@@ -114,11 +121,12 @@ section {
     background-color: #e9fff3;
     position: absolute;
     left: 48%;
-    margin-top: 5%; }
+    margin-top: 5%;
+    z-index: 2; }
   .section-two .section-number {
     position: absolute;
     right: 17%;
-    margin-top: 28%; }
+    margin-top: 24%; }
   .section-two .blurb {
     width: 500px;
     margin-left: 49%;
@@ -131,6 +139,39 @@ section {
     left: 18%;
     color: red; }
 
-.section-three .custom-row {
-  background-color: #869D05;
-  color: #FFFFFF; }
+.section-three img {
+  width: 100%; }
+
+.section-three h2 {
+  margin: 5px 0; }
+
+.section-three .section-number {
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 2%; }
+
+.section-three .ui.grid {
+  background: white;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+  -webkit-box-shadow: 21px 21px 36px 0 rgba(11, 13, 12, 0.13);
+  box-shadow: 21px 21px 36px 0 rgba(11, 13, 12, 0.13); }
+  .section-three .ui.grid p {
+    line-height: 20px !important; }
+
+.section-three .blurb {
+  width: 300px;
+  position: relative;
+  top: 31px;
+  left: 68%; }
+
+.section-three .title {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 43%;
+  color: #dc00ff !important; }
