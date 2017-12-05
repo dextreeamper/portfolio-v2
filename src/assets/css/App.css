@@ -46,8 +46,8 @@ p {
   color: #3a3a3a; }
 
 h1 {
-  font-size: 6em !important;
-  font-family: 'Berkshire Swash', cursive !important; }
+  font-size: 8em !important;
+  font-family: 'Atmosphere-Regular', cursive !important; }
 
 h3 {
   font-size: 1.5em !important;
@@ -57,6 +57,12 @@ section {
   max-width: 960px;
   margin: 0 auto;
   padding: 1px 0; }
+
+@font-face {
+  font-family: 'Atmosphere-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Atmosphere-Regular"), local("Atmosphere-Regular"), url("../fonts/Atmosphere-Regular.ttf") format("truetype"); }
 
 .section-number {
   font-size: 212px;
@@ -129,7 +135,7 @@ section {
     margin-top: 24%; }
   .section-two .blurb {
     width: 500px;
-    margin-left: 49%;
+    margin-left: auto;
     position: relative;
     top: 72px;
     z-index: 1; }
@@ -174,12 +180,12 @@ section {
   width: 300px;
   position: relative;
   top: 31px;
-  left: 68%; }
+  margin-left: auto; }
 
 .section-three .title {
   text-align: right;
   position: relative;
-  top: 740px;
+  top: 760px;
   color: #dc00ff !important; }
 
 .section-four {
@@ -196,8 +202,8 @@ section {
     box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
     .section-four .main-panel .social {
       position: relative;
-      margin-top: -7%;
-      left: 20%; }
+      margin-top: -13%;
+      left: 17%; }
     .section-four .main-panel ul {
       display: flex; }
       .section-four .main-panel ul .social--item {
