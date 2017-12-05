@@ -5,6 +5,7 @@ import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
+import DocumentMeta from 'react-document-meta';
 
 class App extends Component {
   render() {
