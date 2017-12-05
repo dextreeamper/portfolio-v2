@@ -11,7 +11,7 @@ class SectionOne extends Component {
           </div>
           <div className="blurb">
             <p>
-              Dexter specializes in making things for human people. By day he crafts digital interfaces at Google. By night he educates others through video, audio, and the written word.
+              I am passionate about technologies and eager to learn what's new. Developing a software and design is another way of thinking to express using digital visual.
             </p>
           </div>
           <div className="image">
