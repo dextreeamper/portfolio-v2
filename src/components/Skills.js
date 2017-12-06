@@ -17,13 +17,13 @@ class Skills extends Component {
         </div>
         <div className="column right--panel">
           <div className="twoColumn">
-            <h3><strong>6.</strong> Project Development</h3>
+            <h3><strong>4.</strong> Project Development</h3>
           </div>
           <div className="twoColumn">
-            <h3><strong>7.</strong> Research</h3>
+            <h3><strong>5.</strong> Research</h3>
           </div>
           <div className="twoColumn">
-            <h3><strong>8.</strong> Visual Design</h3>
+            <h3><strong>6.</strong> Visual Design</h3>
           </div>
         </div>
       </div>

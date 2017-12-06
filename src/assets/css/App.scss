@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One+SC|Lobster|Pacifico');
-//font-family: 'Lobster', cursive;
-//font-family: 'Pacifico', cursive;
-//font-family: 'Berkshire Swash', cursive;
-// font-family: 'Bowlby One SC', cursive;
-
 .App {
   text-align: center;
 }
@@ -46,6 +40,9 @@
 strong {
     font-family: 'Bowlby One SC', cursive;
     padding-right: 20px;
+    font-weight: bold !important;
+    font-size: 2em;
+    color: #adada9;
 }
 
 p {
@@ -59,7 +56,8 @@ p {
 
 h1 {
     font-size: 8em !important;
-    font-family: 'Atmosphere-Regular', cursive !important;
+    font-family: 'Brusher-Regular', cursive !important;
+    font-weight: normal !important;
 }
 
 h3 {
@@ -75,10 +73,13 @@ section {
 
 @font-face {
   font-family: 'Atmosphere-Regular';
+  font-family: 'Brusher-Regular';
   font-style: normal;
   font-weight: 400;
   src: local('Atmosphere-Regular'), local('Atmosphere-Regular'),
        url('../fonts/Atmosphere-Regular.ttf') format('truetype');
+  src: local('Brusher-Regular'), local('Brusher-Regular'),
+       url('../fonts/Brusher-Regular.ttf') format('truetype');
 }
 
 .section-number {
@@ -175,7 +176,7 @@ section {
         width: 500px;
         margin-left: auto;
         position: relative;
-        top: 72px;
+        top: 45px;
         z-index: 1;
     }
 
@@ -238,6 +239,7 @@ section {
         text-align: right;
         position: relative;
         top: 760px;
+        right: -2%;
         color: #dc00ff !important;
     }
 }
