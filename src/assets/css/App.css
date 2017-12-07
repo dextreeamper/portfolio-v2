@@ -146,7 +146,7 @@ section {
     z-index: 1; }
   .section-two .title {
     position: relative;
-    top: 250px;
+    margin-top: 30%;
     color: red; }
 
 .section-three img {
@@ -198,7 +198,7 @@ section {
   height: 500px; }
   .section-four .main-panel {
     position: relative;
-    max-width: 540px;
+    max-width: 480px;
     margin-right: auto;
     margin-left: 10%;
     top: 100px;
@@ -226,5 +226,5 @@ section {
         color: yellow; }
     .section-four .main-panel .section-number {
       position: relative;
-      margin-left: 82%;
-      top: 100px; }
+      margin-left: 75%;
+      top: 60px; }
