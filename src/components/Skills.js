@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return (
-      <div>
+      <div className="skills">
        <div className="column left--panel">
           <div className="twoColumn">
             <h3><strong>1.</strong> Programming</h3>
