@@ -199,10 +199,11 @@ section {
 
 .section-two {
     margin-top: 200px;
-    height: 800px;
+    height: 500px;
 
     @include breakpoint(867px) {
         padding-bottom: 200px;
+        height: 700px;
     }
 
     .column {
