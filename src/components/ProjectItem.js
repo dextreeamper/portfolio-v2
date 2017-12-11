@@ -7,66 +7,44 @@ import { Grid , Segment } from 'semantic-ui-react';
 class ProjectItem extends Component {
   render() {
     return (
-          <Grid columns='equal'>
-            <Grid.Row>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-            </Grid.Row>
-                        <Grid.Row>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-              <Grid.Column>
-                <Segment>
-                  <a href="#">
-                    <img src={projectTwo} />
-                    <h2>Project Title</h2>
-                    <p className="description">The quick brown fox jumps over the lazy dog.</p>
-                  </a>
-                </Segment>
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
+      <div className="project-container">
+        <div className="item">
+          <div className="project--image even">
+            <img src={projectOne} />
+          </div>
+          <div className="project--content even">
+            <p className="project--title"><strong>Project A</strong></p>
+            <p>The quick brown fox jumps over the lazy dog at the bank of the river.</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="project--image odd">
+            <img src={projectOne} />
+          </div>
+          <div className="project--content odd">
+            <p className="project--title"><strong>Project B</strong></p>
+            <p>The quick brown fox jumps over the lazy dog at the bank of the river.</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="project--image even">
+            <img src={projectOne} />
+          </div>
+          <div className="project--content even">
+            <p className="project--title"><strong>Project C</strong></p>
+            <p>The quick brown fox jumps over the lazy dog at the bank of the river.</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="project--image odd">
+            <img src={projectOne} />
+          </div>
+          <div className="project--content odd">
+            <p className="project--title"><strong>Project D</strong></p>
+            <p>The quick brown fox jumps over the lazy dog at the bank of the river.</p>
+          </div>
+        </div>
+      </div>
     );
   }
 }
