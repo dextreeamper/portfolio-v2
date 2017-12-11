@@ -48,6 +48,10 @@
     background-position: center;
 }
 
+.modal-a {
+    cursor: pointer;
+}
+
 strong {
     font-family: 'Bowlby One SC', cursive;
     padding-right: 20px;
@@ -501,6 +505,10 @@ section {
         padding-bottom: 200px;
     }
 
+    input:not([type]), input[type="text"], input[type="message"], input[type="email"] {
+        display: block !important;
+    }
+
     .main-panel {
         position: relative;
         max-width: 480px;
@@ -515,7 +523,7 @@ section {
         .social {
             position: relative;
             margin-top: -14%;
-            left: 6%;
+            left: 12%;
         }
 
         ul {

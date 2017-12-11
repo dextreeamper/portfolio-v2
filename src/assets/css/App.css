@@ -32,6 +32,9 @@
   background-repeat: repeat-y;
   background-position: center; }
 
+.modal-a {
+  cursor: pointer; }
+
 strong {
   font-family: 'Bowlby One SC', cursive;
   padding-right: 20px;
@@ -378,6 +381,8 @@ section {
   @media screen and (max-width: 867px) {
     .section-four {
       padding-bottom: 200px; } }
+  .section-four input:not([type]), .section-four input[type="text"], .section-four input[type="message"], .section-four input[type="email"] {
+    display: block !important; }
   .section-four .main-panel {
     position: relative;
     max-width: 480px;
@@ -391,7 +396,7 @@ section {
     .section-four .main-panel .social {
       position: relative;
       margin-top: -14%;
-      left: 6%; }
+      left: 12%; }
     .section-four .main-panel ul {
       display: flex; }
       .section-four .main-panel ul .social--item {
