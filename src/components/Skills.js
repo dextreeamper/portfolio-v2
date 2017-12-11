@@ -23,7 +23,7 @@ class Skills extends Component {
             <h3><strong>5.</strong> Research</h3>
           </div>
           <div className="twoColumn">
-            <h3><strong>6.</strong> Visual Design</h3>
+            <h3><strong>6.</strong> Visual Design & Build</h3>
           </div>
         </div>
       </div>
