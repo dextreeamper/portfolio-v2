@@ -6,7 +6,7 @@ class Skills extends Component {
       <div className="skills">
        <div className="column left--panel">
           <div className="twoColumn">
-            <h3><strong>1.</strong> Programming</h3>
+            <h3><strong>1.</strong> Coding</h3>
           </div>
           <div className="twoColumn">
             <h3><strong>2.</strong> Problem Solving</h3>
@@ -17,7 +17,7 @@ class Skills extends Component {
         </div>
         <div className="column right--panel">
           <div className="twoColumn">
-            <h3><strong>4.</strong> Project Development</h3>
+            <h3><strong>4.</strong> Challenges</h3>
           </div>
           <div className="twoColumn">
             <h3><strong>5.</strong> Research</h3>
