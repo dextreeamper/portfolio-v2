@@ -11,7 +11,7 @@ class SectionOne extends Component {
           </div>
           <div className="blurb">
             <p>
-              I am passionate about technologies and eager to learn what's new. Developing a software and design is another way of thinking to express in a digital waygit.
+              I am passionate about technologies and eager to learn what's new. Developing a software and design is another way of thinking to express in a digital way.
             </p>
           </div>
           <div className="image">
