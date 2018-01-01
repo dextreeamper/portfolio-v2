@@ -14,7 +14,7 @@ class SectionThree extends Component {
           </div>
           <div className="blurb">
             <p>
-              My awesome projects that inspires me to create something new.
+              Some of my awesome projects that inspires me to create something new.
             </p>
           </div>
           <div className="section-number">

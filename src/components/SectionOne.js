@@ -26,3 +26,6 @@ class SectionOne extends Component {
 }
 
 export default SectionOne;
+
+
+// I'm a passionate guy who loves to learn and teach others to achieve their dreams.
