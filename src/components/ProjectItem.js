@@ -4,6 +4,7 @@ import sam from '../assets/img/project-sam.png';
 import singlecell from '../assets/img/project-singlecell.png';
 import shapeyourmind from '../assets/img/project-shapeyourmind.png';
 import userprofile from '../assets/img/project-userprofile.png';
+import booky from '../assets/img/project-bookyph.png';
 import { Grid , Segment } from 'semantic-ui-react';
 
 class ProjectItem extends Component {
@@ -27,19 +28,19 @@ class ProjectItem extends Component {
               <img src={singlecell} />
             </div>
             <div className="project--content odd">
-              <p className="project--title"><strong>Singlecell IT Consulting</strong></p>
+              <p className="project--title"><strong>Serice Based Platform</strong></p>
               <p>An IT Consulting company with a service based platform that aligns with client’s process.</p>
             </div>
           </div>
         </a>
-        <a href="http://shapeyourmind.com.au/">
+        <a href="http://ph.phonebooky.com/">
           <div className="item">
             <div className="project--image even">
-              <img src={shapeyourmind} />
+              <img src={booky} />
             </div>
             <div className="project--content even">
-              <p className="project--title"><strong>Shapeyourmind</strong></p>
-              <p>A simple viewing website for Dietitian with a booking consultation functionality.</p>
+              <p className="project--title"><strong>Booky Restaurant</strong></p>
+              <p>Discover restaurants & save money.</p>
             </div>
           </div>
         </a>
@@ -52,6 +53,17 @@ class ProjectItem extends Component {
               <p className="project--title"><strong>Simple User Profile</strong></p>
               <p>A simple user profile layout using React and Redux with github user profile design.
               </p>
+            </div>
+          </div>
+        </a>
+        <a href="http://shapeyourmind.com.au/">
+          <div className="item">
+            <div className="project--image even">
+              <img src={shapeyourmind} />
+            </div>
+            <div className="project--content even">
+              <p className="project--title"><strong>Shapeyourmind</strong></p>
+              <p>A simple viewing website for Dietitian with a booking consultation functionality.</p>
             </div>
           </div>
         </a>
